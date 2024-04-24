@@ -52,7 +52,8 @@ function dynamicContentDetails(ob)
     h3.appendChild(h3Text)
 
     let para = document.createElement('p')
-    let paraText = document.createTextNode(ob.description)
+    let paraText = document.createTextNode('Lacivert Solid Kazak, Patchwork, Yuvarlak Yakalı, Uzun Kollu, Düz Kenarlı')
+   // let paraText = document.createTextNode(ob.description)
     para.appendChild(paraText)
 
     let productPreviewDiv = document.createElement('div')
