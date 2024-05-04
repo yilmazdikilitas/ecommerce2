@@ -11,6 +11,8 @@ function dynamicClothingSection(ob) {
   // boxLink.href = '#'
   if(ob.id==2){
   boxLink.href = "/contentDetails2.html?" + ob.id;
+  }else if(ob.id==3){
+  boxLink.href = "/contentDetails3.html?" + ob.id;  
   }
   else{
   boxLink.href = "/contentDetails.html?" + ob.id;}
