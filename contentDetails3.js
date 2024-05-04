@@ -43,7 +43,7 @@ function dynamicContentDetails(ob)
     detailsDiv.id = 'details'
 
     let h3DetailsDiv = document.createElement('h3')
-    let h3DetailsText = document.createTextNode('TL 500 ')
+    let h3DetailsText = document.createTextNode('TL 1200 ')
     //let h3DetailsText = document.createTextNode('TL 2800 ' + ob.price)
     h3DetailsDiv.appendChild(h3DetailsText)
 
@@ -52,7 +52,7 @@ function dynamicContentDetails(ob)
     h3.appendChild(h3Text)
 
     let para = document.createElement('p')
-    let paraText = document.createTextNode('Lacivert Solid Kazak, Patchwork, Yuvarlak Yakalı, Uzun Kollu, Düz Kenarlı')
+    let paraText = document.createTextNode('Erkek Ayakkabı')
    // let paraText = document.createTextNode(ob.description)
     para.appendChild(paraText)
 
